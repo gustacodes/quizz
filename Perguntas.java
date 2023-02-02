@@ -21,17 +21,17 @@ public class Perguntas {
 	
 	void questoes(String perguntas, String resposta) {
 				
-			System.out.println("[INSIRA AS PERGUNTAS]");
+		System.out.println("[INSIRA AS PERGUNTAS]");
 			
-				for(int i = 0; i < questoes.length; i++) {
-					System.out.println("Pergunta de número: [" + count++ + "]");
-					questoes[i] = sc.nextLine();
+			for(int i = 0; i < questoes.length; i++) {
+				System.out.println("Pergunta de número: [" + count++ + "]");
+				questoes[i] = sc.nextLine();
 					
-					System.out.println("\n[RESPOSTA] ");
-					respostas[i] = sc.nextLine();
+				System.out.println("\n[RESPOSTA] ");
+				respostas[i] = sc.nextLine();
 					
-					System.out.println();
-				}
+				System.out.println();
+			}
 				
 			count = 0;	
 			
